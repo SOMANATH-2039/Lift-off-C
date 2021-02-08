@@ -9,10 +9,17 @@ void main()
 	a=i+j;
 	b=i-j;
 	c=i*j;
-	d=i/j;
+	
 	printf("addition :%f \n",a);
 	printf("subtraction :%f \n",b);
 	printf("mutipplication :%f \n",c);
-	printf("division :%f \n",d);
+	
+	
+	if (j!=0){
+		d=i/j;
+		printf("division :%f \n",d);
+	}
+	else {
+		printf("ERROR!!! division by zero not possible");}
 	
 }
