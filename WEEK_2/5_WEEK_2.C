@@ -7,14 +7,14 @@ void main()
 	{
 		for(j=1;j<=5;j++)
 		{
-			if (j==a | j==b)
+			if (j==a || j==b)
 			{
 				printf("* ");
 			}
-			//else if (j==b)
-			//{
-			//	printf("*\t");
-			//}
+			
+			
+			
+			
 			else
 			{
 				printf("  ");
